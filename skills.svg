@@ -1,0 +1,71 @@
+<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050810"/>
+      <stop offset="100%" stop-color="#0d1420"/>
+    </linearGradient>
+    <style>
+      .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    </style>
+  </defs>
+
+  <rect width="900" height="420" rx="16" fill="url(#bg2)"/>
+  <rect x="1" y="1" width="898" height="418" rx="15" fill="none" stroke="#242e42" stroke-width="1.5"/>
+
+  <circle cx="26" cy="26" r="5.5" fill="#ff5f56"/>
+  <circle cx="44" cy="26" r="5.5" fill="#ffbd2e"/>
+  <circle cx="62" cy="26" r="5.5" fill="#27c93f"/>
+  <text x="450" y="31" text-anchor="middle" class="mono" font-size="12" fill="#556074">yuvraj@dev-machine — pkg manager</text>
+  <line x1="0" y1="44" x2="900" y2="44" stroke="#1f2735" stroke-width="1"/>
+
+  <text x="26" y="72" class="mono" font-size="14" fill="#8fa1c7"><tspan fill="#00f5d4">$</tspan> stack list --all</text>
+
+  <text x="26" y="102" class="mono" font-size="12.5" fill="#556074">PACKAGE                          STATUS       CATEGORY</text>
+  <line x1="26" y1="112" x2="874" y2="112" stroke="#1f2735" stroke-width="1"/>
+
+  <g class="mono" font-size="14" fill="#c9d1d9">
+
+    <text x="26" y="140">python</text>
+    <text x="300" y="140" fill="#7ee787">● stable</text>
+    <text x="480" y="140" fill="#556074">ai / ml, scripting</text>
+
+    <text x="26" y="168">c / c++</text>
+    <text x="300" y="168" fill="#7ee787">● stable</text>
+    <text x="480" y="168" fill="#556074">systems, robotics</text>
+
+    <text x="26" y="196">javascript / react / next.js</text>
+    <text x="300" y="196" fill="#7ee787">● stable</text>
+    <text x="480" y="196" fill="#556074">web dev</text>
+
+    <text x="26" y="224">pytorch / tensorflow / opencv</text>
+    <text x="300" y="224" fill="#58a6ff">◐ active</text>
+    <text x="480" y="224" fill="#556074">ai / ml, computer vision</text>
+
+    <text x="26" y="252">flutter / kotlin</text>
+    <text x="300" y="252" fill="#58a6ff">◐ active</text>
+    <text x="480" y="252" fill="#556074">app dev</text>
+
+    <text x="26" y="280">firebase / supabase / vercel</text>
+    <text x="300" y="280" fill="#58a6ff">◐ active</text>
+    <text x="480" y="280" fill="#556074">infra, backend</text>
+
+    <text x="26" y="308">embedded systems</text>
+    <text x="300" y="308" fill="#facc15">◔ learning</text>
+    <text x="480" y="308" fill="#556074">robotics hardware</text>
+
+    <text x="26" y="336">advanced computer vision</text>
+    <text x="300" y="336" fill="#facc15">◔ learning</text>
+    <text x="480" y="336" fill="#556074">ai / ml</text>
+
+  </g>
+
+  <line x1="0" y1="360" x2="900" y2="360" stroke="#1f2735" stroke-width="1"/>
+  <text x="26" y="388" class="mono" font-size="13" fill="#556074">8 packages · legend: </text>
+  <text x="176" y="388" class="mono" font-size="13" fill="#7ee787">● stable</text>
+  <text x="264" y="388" class="mono" font-size="13" fill="#58a6ff">◐ actively using</text>
+  <text x="418" y="388" class="mono" font-size="13" fill="#facc15">◔ learning now</text>
+
+  <circle cx="855" cy="72" r="3" fill="#00f5d4">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
+</svg>
