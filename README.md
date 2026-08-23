@@ -2,52 +2,50 @@
 
 <img src="https://raw.githubusercontent.com/thisisyuvraj-08/thisisyuvraj-08/main/banner.svg" width="100%"/>
 
-<img src="https://komarev.com/ghpvc/?username=thisisyuvraj-08&label=Profile%20Views&color=161b22&style=flat-square" />
-<img src="https://img.shields.io/github/followers/thisisyuvraj-08?label=Followers&style=flat-square&color=161b22" />
+<img src="https://komarev.com/ghpvc/?username=thisisyuvraj-08&label=Profile%20Views&color=00f5d4&style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/github/followers/thisisyuvraj-08?label=Followers&style=for-the-badge&color=58a6ff&labelColor=0d1117" />
 
 </div>
 
 <br/>
 
-```
-> cat about.txt
-```
+## `> cat about.txt`
 
-Software engineer building across three layers at once — application code, the
-hardware underneath it (robotics), and the models that make it think. Currently
-deep in AI/ML and looking to fuse it with real hardware. Off-screen, I follow
-football closely enough to have strong, unsolicited opinions about it. ⚽
+> Software engineer building across three layers at once — application code,
+> the hardware underneath it (robotics), and the models that make it think.
+> Currently deep in AI/ML and looking to fuse it with real hardware.
 
-**Currently learning:** advanced computer vision & embedded systems
-**Open to collaborating on:** robotics + AI powered products
-**Ask me about:** React, Python, robotics, or ML pipelines
+| | |
+|---|---|
+| 🌱 **Learning** | Advanced computer vision & embedded systems |
+| 🤝 **Open to collaborate on** | Robotics + AI powered products |
+| 💬 **Ask me about** | React, Python, robotics, ML pipelines |
+| ⚡ **Fun fact** | I debug code and defenses with the same intensity ⚽ |
 
 <br/>
 
-## `> ls tech-stack/`
+## `> ./skill-report`
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/thisisyuvraj-08/thisisyuvraj-08/main/skills.svg" width="100%"/>
+</div>
+
+<br/>
 
 <details>
-<summary><b>Languages</b></summary>
+<summary><b>📦 full badge wall (click to expand)</b></summary>
 <br/>
-<img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white"/> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54"/> <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E"/> <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"/>
-</details>
+<div align="center">
 
-<details>
-<summary><b>Web & App</b></summary>
-<br/>
-<img src="https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white"/> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/> <img src="https://img.shields.io/badge/Three.js-black?style=flat-square&logo=three.js&logoColor=white"/>
-</details>
+<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/> <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/> <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/> <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
 
-<details>
-<summary><b>AI / ML</b></summary>
-<br/>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/OpenCV-white?style=flat-square&logo=opencv"/> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
-</details>
+<img src="https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"/> <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/> <img src="https://img.shields.io/badge/Three.js-black?style=for-the-badge&logo=three.js&logoColor=white"/>
 
-<details>
-<summary><b>Cloud & Tools</b></summary>
-<br/>
-<img src="https://img.shields.io/badge/Firebase-039BE5?style=flat-square&logo=firebase"/> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-black?style=flat-square&logo=vercel&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/> <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white"/> <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/OpenCV-white?style=for-the-badge&logo=opencv"/> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=firebase"/> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-black?style=for-the-badge&logo=vercel&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/> <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white"/> <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white"/>
+
+</div>
 </details>
 
 <br/>
@@ -67,26 +65,24 @@ football closely enough to have strong, unsolicited opinions about it. ⚽
 
 | project | stack | status |
 |---|---|---|
-| AI-powered robotics module | Python · OpenCV · PyTorch | `in-progress` |
-| Full-stack web platform | Next.js · Firebase · Supabase | `in-progress` |
-| Cross-platform app | Flutter · Kotlin | `learning` |
-| ML experiments lab | TensorFlow · scikit-learn | `ongoing` |
+| 🤖 AI-powered robotics module | Python · OpenCV · PyTorch | `in-progress` |
+| 🌐 Full-stack web platform | Next.js · Firebase · Supabase | `in-progress` |
+| 📱 Cross-platform app | Flutter · Kotlin | `learning` |
+| 🧪 ML experiments lab | TensorFlow · scikit-learn | `ongoing` |
 
 <sub>swap this for your real repos whenever</sub>
 
 <br/>
 
-## `> ./connect --with=me`
-
 <div align="center">
 
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/thisisyuvraj_08)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/yuvrajsinghjakhar)
+## `> ./connect --with=me`
 
-</div>
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/thisisyuvraj_08)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yuvrajsinghjakhar)
 
 <br/>
 
-<div align="center">
-<sub>terminal closed — thanks for reading the whole thing</sub>
+<sub>terminal closed — thanks for scrolling this far</sub>
+
 </div>
