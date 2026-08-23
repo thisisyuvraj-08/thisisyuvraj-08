@@ -1,182 +1,133 @@
-# Animal Video Scraper (Reddit + Pinterest)
+<div align="center">
 
-Downloads animal videos from Reddit and Pinterest into per-animal folders
-(`downloads/cats/`, `downloads/dogs/`, `downloads/elephants/`, etc.), never
-downloading the same video twice.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=250&section=header&text=YUVRAJ%20SINGH%20JAKHAR&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Builder%20of%20Software,%20Robots%20%26%20Neural%20Nets%20⚽&descAlignY=55&descSize=18" width="100%"/>
 
-## How it works
+<br/>
 
-Rather than writing custom HTML/JSON parsing (which breaks constantly as
-Reddit/Pinterest change their sites), this uses two actively-maintained,
-purpose-built tools under the hood:
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2600&pause=900&color=00F5D4&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Full-Stack+Dev+%7C+Robotics+%7C+AI%2FML;Shipping+code+by+day%2C+chasing+the+ball+by+dusk+⚽;Currently+debugging+life+%F0%9F%98%85)](https://git.io/typing-svg)
 
-- **[gallery-dl](https://github.com/mikf/gallery-dl)** — handles the actual
-  scraping of Reddit and Pinterest, and has a built-in `--download-archive`
-  feature: every downloaded item's unique ID is stored in a small database
-  file, so **future runs automatically skip anything already downloaded**.
-  This is the "never download the same video twice" guarantee — it's
-  permanent, not just per-run.
-- **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** — gallery-dl calls this
-  internally to pull actual video files (e.g. `v.redd.it` links).
+<img src="https://komarev.com/ghpvc/?username=thisisyuvraj-08&label=Profile%20Views&color=0abab5&style=for-the-badge" />
+<img src="https://img.shields.io/github/followers/thisisyuvraj-08?label=Followers&style=for-the-badge&color=00F5D4" />
 
-`run_scraper.py` just loops over your animal list and calls gallery-dl once
-per source, with a `--filter` that keeps only video files (mp4/webm/mov/gif),
-so images are skipped.
+</div>
 
-## 1. Install
+<br/>
 
-```bash
-pip install gallery-dl yt-dlp
-# ffmpeg is required for merging some reddit videos+audio
-# macOS: brew install ffmpeg | Ubuntu: sudo apt install ffmpeg | Windows: winget install ffmpeg
+## ⚡ SYSTEM.BOOT() — About Me
+
+```yaml
+me:
+  name: "Yuvraj Singh Jakhar"
+  role: "Software Engineer · Robotics Builder · AI/ML Explorer"
+  current_focus:
+    - 🖥️  Software applications
+    - 🤖  Hardware for Robotics
+    - 🌐  Web Development
+    - 📱  App Development
+    - 🧠  AI / Machine Learning
+  looking_to_collaborate_on: "Robotics + AI powered products 🚀"
+  looking_for_help_with: "Scaling ML models into real hardware"
+  currently_learning: "Advanced Computer Vision & Embedded Systems"
+  ask_me_about: "React, Python, Robotics, ML pipelines, or the last football match 👀"
+  fun_fact: "I debug code and defenses with the same intensity ⚽💻"
 ```
 
-## 2. Set up Reddit API credentials
+<br/>
 
-Reddit scraping via gallery-dl works much better (and follows Reddit's rules)
-with an API app:
+<div align="center">
 
-1. Go to https://www.reddit.com/prefs/apps → "create another app..."
-2. Choose type **"installed app"**, give it any name, redirect URI can be
-   `http://localhost:8080`
-3. Copy the string under the app name (that's your `client-id`)
-4. Open `gallery-dl.conf.json` and fill in:
-   ```json
-   "client-id": "your_client_id_here",
-   "user-agent": "python:animal-video-scraper:v1.0 (by u/your_reddit_username)"
-   ```
+## ⚽ Off The Pitch, Into The IDE
 
-## 3. Set up Pinterest access (optional but recommended)
+<img src="https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif" width="320" alt="football gif"/>
 
-Pinterest heavily limits what anonymous/logged-out requests can see. For
-decent search results:
+**Football fan first, developer always.** Whether it's a last-minute derby winner or a last-minute bug fix at 2 AM — I live for the clutch moment. When I'm not shipping code, I'm watching the beautiful game (and yes, I *will* debate your GOAT pick).
 
-1. Log into pinterest.com in your browser
-2. Export your cookies with a browser extension like "Get cookies.txt LOCALLY"
-3. Save the exported file as `pinterest_cookies.txt` in this folder
-4. In `gallery-dl.conf.json`, set:
-   ```json
-   "cookies": "pinterest_cookies.txt"
-   ```
-   (replace the `"cookies": null` line under `"pinterest"`)
+</div>
 
-Without this, Pinterest scraping will still run but may return few or no
-results — Pinterest actively blocks logged-out scraping.
+<br/>
 
-## 4. Run it
+## 🧬 Tech Arsenal
 
-```bash
-python run_scraper.py --list                 # see available categories
-python run_scraper.py --animal cats           # scrape just cats
-python run_scraper.py --all                   # scrape every category
-python run_scraper.py --all --limit 15        # cap items per source per run
-```
+<div align="center">
 
-Output structure:
+**Languages**
 
-```
-downloads/
-  cats/
-  dogs/
-  elephants/
-  rhinos/
-  deer/
-  birds/
-archives/
-  cats.sqlite3      <- dedup database, don't delete this
-  dogs.sqlite3
-  ...
-```
+<img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white"/> <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"/> <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/> <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img src="https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white"/> <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
 
-## 5. Add more animals
+**Web & App Development**
 
-Edit `animals.json` and add a new entry, e.g.:
+<img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"/> <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white"/> <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white"/> <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white"/> <img src="https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white"/>
 
-```json
-"foxes": {
-  "reddit": [
-    "https://www.reddit.com/r/foxes/",
-    "https://www.reddit.com/search/?q=fox+video&sort=new"
-  ],
-  "pinterest_queries": ["fox video"]
-}
-```
+**AI / ML / Data**
 
-No code changes needed — `run_scraper.py` reads this file automatically.
+<img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white"/> <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white"/> <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white"/> <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white"/> <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black"/>
 
-## 6. Automate it (optional)
+**Cloud, Tools & Design**
 
-To keep the folders growing over time, schedule a periodic run, e.g. with
-cron (Linux/macOS):
+<img src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"/> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"/> <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white"/> <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"/> <img src="https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue"/> <img src="https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white"/> <img src="https://img.shields.io/badge/-playwright-%232EAD33?style=for-the-badge&logo=playwright&logoColor=white"/>
 
-```
-0 6 * * * cd /path/to/animal-scraper && /usr/bin/python3 run_scraper.py --all --limit 10
-```
+</div>
 
-Because of the download-archive dedup, running this daily/weekly is safe —
-it will only ever add new videos, never re-download old ones.
+<br/>
 
-## 7. Building 10-minute compilation videos (recommended path)
+## 📡 Live Stats Feed
 
-Everything above (`run_scraper.py`) downloads and keeps raw clips — useful for
-building a personal archive, but it needs Reddit API credentials and Pinterest
-cookies you haven't set up yet (`gallery-dl.conf.json` still has placeholder
-values).
+<div align="center">
 
-For actually producing finished 10-11 minute compilation videos, use
-`make_compilation.py` / `orchestrator.py` instead. This path:
+<img src="https://github-readme-stats.vercel.app/api?username=thisisyuvraj-08&show_icons=true&theme=synthwave&hide_border=true&count_private=true&include_all_commits=true&border_radius=10" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thisisyuvraj-08&layout=compact&theme=synthwave&hide_border=true&border_radius=10" width="35%"/>
 
-- Pulls clips from the **Pixabay and Pexels official video APIs** (keys already
-  in `config.py`) — no Reddit/Pinterest setup needed.
-- Downloads clips to a temp directory, builds one scaled/padded/concatenated
-  1080p compilation with ffmpeg, then **deletes every source clip** — only the
-  finished video is ever kept on disk.
-- Never reuses the same combination of source clips twice (tracked per-animal
-  in `history.json`).
-- After building, uploads the finished video to the **Gemini API** and asks it
-  to describe the content and compare it against the summaries of every prior
-  video for that animal. If Gemini flags it as too similar (similarity ≥ 0.8),
-  the video is discarded and rebuilt with a different clip combination (up to
-  3 attempts) before being kept.
-- Logs every finished video's details (clip IDs, duration, Gemini's content
-  summary, tags, and similarity verdict) into `history.json`.
+<img src="https://streak-stats.demolab.com/?user=thisisyuvraj-08&theme=synthwave&hide_border=true&border_radius=10" width="60%"/>
 
-Manual run for one category:
+<img src="https://github-profile-trophy.vercel.app/?username=thisisyuvraj-08&theme=algolia&no-frame=true&row=1&column=7&margin-w=10" width="90%"/>
 
-```bash
-python3 make_compilation.py cats        # one ~11 min cats video
-python3 make_compilation.py dogs 2      # two ~11 min dogs videos
-```
+</div>
 
-Output lands in `~/Downloads/<animal>_compilations/`.
+<br/>
 
-### Automated daily run
+## 🐍 Contribution Snake
 
-`orchestrator.py` builds exactly one video per invocation, rotating through
-every category in `animals.json` in order (one category/day if run daily), and
-remembers where it left off in `rotation_state.json`. It's installed as a
-daily cron job:
+<div align="center">
 
-```
-0 9 * * * cd ~/Downloads/animalyt && /Library/Frameworks/Python.framework/Versions/3.13/bin/python3.13 orchestrator.py >> cron.log 2>&1
-```
+<!--START_SECTION:snake-->
+<img src="https://raw.githubusercontent.com/thisisyuvraj-08/thisisyuvraj-08/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+<!--END_SECTION:snake-->
 
-(cron doesn't see your shell's `python3` alias/PATH, so this points straight at the interpreter that
-actually has `requests`/`imageio_ffmpeg` installed — check with `python3 -c "import sys; print(sys.executable)"`
-if you ever reinstall Python and need to update this.)
+<sub>⚙️ Auto-generated nightly by the <code>snake.yml</code> workflow (included below) — eats your contribution graph like it's a striker on a breakaway.</sub>
 
-Check it any time with `crontab -l`; remove it with `crontab -e`. Progress and
-errors are appended to `cron.log` in this folder.
+</div>
 
-## Notes on legality / etiquette
+<br/>
 
-- Pixabay and Pexels videos are offered under their own free-to-use stock
-  license (attribution not required for either), so the compilation pipeline
-  above is on much firmer footing than the Reddit/Pinterest scraper.
-- The scraper path (`run_scraper.py`) is intended for **personal use**
-  (building your own local video collection), not redistribution — the
-  creators of those videos retain copyright.
-- Respect Reddit's API terms (don't set an absurdly high `--limit` or run
-  extremely frequently) and Pinterest's Terms of Service.
-- gallery-dl already rate-limits/retries sensibly by default; avoid
-  overriding that to hammer either site.
+## 🎯 Currently Building
+
+| 🚧 Project | 🛠️ Stack | 📌 Status |
+|---|---|---|
+| **AI-powered Robotics Module** | Python · OpenCV · PyTorch | 🔄 In Progress |
+| **Full-Stack Web Platform** | Next.js · Firebase · Supabase | 🔄 In Progress |
+| **Cross-Platform App** | Flutter · Kotlin | 🌱 Learning Phase |
+| **ML Experiments Lab** | TensorFlow · Scikit-learn | 🧪 Ongoing |
+
+<sub>Replace this table with your real live repos anytime — it's the easiest section to keep fresh.</sub>
+
+<br/>
+
+<div align="center">
+
+## 🌐 Let's Connect
+
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/thisisyuvraj_08)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yuvrajsinghjakhar)
+
+<br/>
+
+### ✍️ Random Dev Wisdom
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="600"/>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer"/>
+
+**"Code like you're taking a penalty — calm, focused, no hesitation."** ⚽💻
+
+</div>
